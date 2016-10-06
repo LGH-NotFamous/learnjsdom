@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Shopping List</title>
     <link rel="stylesheet" href="style/shopping.css" type="text/css">
 </head>
+
 <body>
     <h1>What to buy</h1>
     <p title="a gentle reminder">Don't forget to buy this stuff</p>
-    <ul id="purchases">
+    <ul id="purchases" class="sales">
         <li>A tin of beans</li>
         <li class="sale">Cheese</li>
         <li class="sale">important</li>
     </ul>
     <script>
-        alert(typeof document.getElementById("purchases"));
+        alert(typeof(document.getElementById("purchases")));
+                // var oLi = document.getElementsByTagName("li");
+                // alert(oLi.length);
     </script>
 </body>
+
 </html>
